@@ -14,7 +14,7 @@ for row in df[0]:
     started = True
     offset = (offset + 3) % len(row)
 
-print("Number of trees hit for part 1: {}".format(numTrees))
+print(f"Number of trees hit for part 1: {numTrees}")
 
 # Part 2
 # Determine the number of trees you would encounter if, for each of the
@@ -46,5 +46,5 @@ product = 1
 for num in numTreesPerRoute:
     product *= num    
 print(numTreesPerRoute)
-print("Product of these numbers is: {}".format(product))
+print(f"Product of these numbers is: {product}")
 
