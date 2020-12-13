@@ -1,5 +1,3 @@
-print('placeholder for day 9')
- 
 def read_input():
     xmas_code = []
     with open('day9_input.txt') as input_file:
