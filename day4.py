@@ -24,7 +24,7 @@ for currentEntry in unparsedEntries:
     if {k for k in parsedEntries.keys()}.issuperset(requiredEntries):
         validForPart1.append(parsedEntries)
 
-print("Number of valid entries for part 1 is: {}".format(len(validForPart1)))
+print(f"Number of valid entries for part 1 is: {len(validForPart1)}")
 
 # part 2 - add validation. How tedious.
 # byr (Birth Year) - four digits; at least 1920 and at most 2002.
@@ -86,4 +86,4 @@ for entry in validForPart1:
         continue
     numValid += 1
 
-print("Number of valid entries for part 2 is: {}".format(numValid))
+print(f"Number of valid entries for part 2 is: {numValid}")

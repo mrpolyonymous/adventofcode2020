@@ -25,7 +25,7 @@ for i in range(0, len(passwords)):
     if occurrences >= low and occurrences <= high:
         numValid += 1
 
-print("Number of valid passwords for part 1: {}".format(numValid))
+print(f"Number of valid passwords for part 1: {numValid}")
 
 # Part 2
 # Each policy actually describes two positions in the password, where
@@ -49,4 +49,4 @@ for i in range(0, len(passwords)):
     if (passwordToTest[lowIndex] == requiredCharacter[i] or passwordToTest[highIndex] == requiredCharacter[i]) and passwordToTest[lowIndex] != passwordToTest[highIndex]:
         numValid += 1
 
-print("Number of valid passwords for part 2: {}".format(numValid))
+print(f"Number of valid passwords for part 2: {numValid}")

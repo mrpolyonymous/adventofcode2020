@@ -18,8 +18,8 @@ for low in range(0, len(sortedNumbers)):
     if n1 > 0 and n2 > 0:
         break
 
-print("Found answer for part 1: {} + {} = 2020".format(n1, n2))
-print("{} * {} = {}".format(n1, n2, n1*n2))
+print(f"Found answer for part 1: {n1} + {n2} = 2020")
+print(f"{n1} * {n2} = {n1*n2}")
 
 # Part 2: In your expense report, what is the product of the three entries that sum to 2020?
 n1 = n2 = n3 = 0
@@ -39,5 +39,5 @@ for low in range(0, len(sortedNumbers) - 2):
     if n1 > 0 and n2 > 0 and n3 > 0:
         break
 
-print("Found answer for part 2: {} + {} + {} = 2020".format(n1, n2, n3))
-print("{} * {} * {} = {}".format(n1, n2, n3, n1*n2*n3))
+print(f"Found answer for part 2: {n1} + {n2} + {n3} = 2020")
+print(f"{n1} * {n2} * {n3} = {n1*n2*n3}")
